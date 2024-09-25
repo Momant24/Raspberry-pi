@@ -29,6 +29,7 @@ sudo systemctl start ssh
 8. Instaler all programvare som du trenger
 ``` console
 sudo apt install python3-pip
+sudo apt install python3
 sudo apt install git
 sudo apt install mariadb-server 
 sudo mysql_secure_installation
@@ -62,3 +63,5 @@ FLUSH PRIVILEGES;
 sudo nmtui
 ```
 #### Ta sudo update og sudo upgrade igjen for at alt skal være opptatert
+
+[Åpne dokumentet](.Telefonkatlog.py)
