@@ -64,4 +64,4 @@ sudo nmtui
 ```
 #### Ta sudo update og sudo upgrade igjen for at alt skal være opptatert
 
-[Åpne dokumentet](.Telefonkatlog.py)
+[Åpne dokumentet](Telefonkatlog.py)
