@@ -61,3 +61,4 @@ FLUSH PRIVILEGES;
 ``` console
 sudo nmtui
 ```
+#### Ta sudo update og sudo upgrade igjen for at alt skal være opptatert
