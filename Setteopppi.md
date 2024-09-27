@@ -64,4 +64,26 @@ sudo nmtui
 ```
 #### Ta sudo update og sudo upgrade igjen for at alt skal være opptatert
 
-[Åpne dokumentet](Telefonkatlog.py)
+## Sette opp telefonkatalog
+[Se Telefonkatalog](Telefonkatlog.py)
+
+Gjør stegende under hvis du ønsker en ssh nøkkel til din pi og har en privat repo
+1. Skriv koden under med din epost. Og trykk enter 3 ganger
+``` comand
+ssh-keygen -t ed25519 -C «din@epost.com»
+``` 
+2. Gå inn i mappen den sier du skal inn i og kopier koden. Leg denn inn i git hub på ssh nøkler.
+3. Når du har gjort det gå tilbake til mappen du lagde og skriv git clone og ssh koden fra git hub reposotorien din.
+```comand
+git clone git@github.com:Momant24/Raspberry-pi.git
+```
+Hvis du har en publick repo kan du gjøre stegende under
+1. Gå til mappen du ønker å sette opp telefonkatalogen i med cd
+2. Lag en mappe hvis du ønsker det med mkdir Navnmappe
+3. Når du er i mappa skriv git init
+4. Pas på at du har laget en reposetory med telefonkatalogen.
+5. Skriv git clone din repo
+```comand
+git clone https://github.com/Momant24/Raspberry-pi
+```
+Og kjør 
