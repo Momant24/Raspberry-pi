@@ -65,7 +65,7 @@ sudo nmtui
 #### Ta sudo update og sudo upgrade igjen for at alt skal være opptatert
 
 ## Sette opp telefonkatalog
-[Se Telefonkatalog](Telefonkatlog.py)
+[Se Telefonkatalog](Python/telefonkatalog_oppdatert_sql.py)
 
 Gjør stegende under hvis du ønsker en ssh nøkkel til din pi og har en privat repo
 1. Skriv koden under med din epost. Og trykk enter 3 ganger
@@ -86,4 +86,7 @@ Hvis du har en publick repo kan du gjøre stegende under
 ```comand
 git clone https://github.com/Momant24/Raspberry-pi
 ```
-Og kjør 
+6. Kjør koden med å skrive 
+``` comand
+python3 Telefonkatlog.py
+``` 
