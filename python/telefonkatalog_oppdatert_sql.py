@@ -42,9 +42,9 @@ def registrerPerson():
 
 def visAllePersoner():
     mydb = mysql.connector.connect(
-    host="172.29.51.19",
-    user="test",
-    password="1234",
+    host="10.100.10.104",
+    user="martin2",
+    password="Hei",
     database="telefonkatalog"
     )
 
@@ -86,10 +86,10 @@ def sokPerson():
 def finnPerson(typeSok, sokeTekst):
 
     mydb = mysql.connector.connect(
-      host="172.29.51.19",
-      user="test",
-      password="1234",
-      database="telefonkatalog"
+    host="10.100.10.104",
+    user="martin2",
+    password="Hei",
+    database="telefonkatalog"
     )
 
     mycursor = mydb.cursor()
@@ -106,9 +106,9 @@ def finnPerson(typeSok, sokeTekst):
 def lagreIDatabase(fornavn, etternavn, telefonnummer):
 
     mydb = mysql.connector.connect(
-    host="172.29.51.19",
-    user="test",
-    password="1234",
+    host="10.100.10.104",
+    user="martin2",
+    password="Hei",
     database="telefonkatalog"
     )
 

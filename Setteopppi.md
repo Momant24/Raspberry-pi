@@ -86,7 +86,8 @@ Hvis du har en publick repo kan du gjøre stegende under
 ```comand
 git clone https://github.com/Momant24/Raspberry-pi
 ```
-6. Kjør koden med å skrive 
+6. Kopier og lim inn sql kodene en etter en i maria db.
+7. Kjør koden med å skrive 
 ``` comand
 python3 Telefonkatlog.py
 ``` 
